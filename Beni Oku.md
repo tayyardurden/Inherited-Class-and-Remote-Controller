@@ -2,23 +2,23 @@ Kumanda dosyasına eklenen özellikler :
   
    1) DOKUNMATİK EKRAN
 
-         def dokunmatik_ekranı_aç(self):
-          while True:
-              cevap = input ("Dokunmatik ekranı açmak istiyor musunuz? (E/H)")
-              if cevap == "E":
-                  print("Dokunmatik ekran açılıyor...")
-                  self.dokunmatik_ekran = "Açık"
-                  if self.dokunmatik_ekran == "Açık":
-                      print("Dokunmatik ekran zaten açık.")
-                      break
+           def dokunmatik_ekranı_aç(self):
+            while True:
+                cevap = input ("Dokunmatik ekranı açmak istiyor musunuz? (E/H)")
+                if cevap == "E":
+                    print("Dokunmatik ekran açılıyor...")
+                    self.dokunmatik_ekran = "Açık"
+                    if self.dokunmatik_ekran == "Açık":
+                        print("Dokunmatik ekran zaten açık.")
+                        break
 
-              elif cevap == "H":
-                  print("Dokunmatik ekranı açmayı reddettiniz, kumanda kapatılıyor.")
-                  break
+                elif cevap == "H":
+                    print("Dokunmatik ekranı açmayı reddettiniz, kumanda kapatılıyor.")
+                    break
 
-              else:
-                  print("Lütfen E veya H harflerinden birini giriniz.")
-                  continue
+                else:
+                    print("Lütfen E veya H harflerinden birini giriniz.")
+                    continue
                 
    2)YAZILIM GÜNCELLE
   
